@@ -1,13 +1,13 @@
 body {
-  background-color: #fff;
+  background-color: #232136;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  color:#e0def4;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#eb6f92;
   margin:0 0 20px;
 }
 
@@ -25,33 +25,33 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#f6c177;
   font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#ea9a97;
   font-weight: 500;
 }
 
 a {
-  color:#39c;
+  color:#3e8fb0;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#9ccfd8;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#3e8fb0;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#9ccfd8;
 }
 
 .wrapper {
@@ -60,7 +60,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #c4a7e7;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -68,14 +68,14 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
+  color:#c4a7e7;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #2a273f;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #c4a7e7;
   overflow-x: auto;
 }
 
@@ -87,16 +87,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #c4a7e7;
 }
 
 dt {
-  color:#444;
+  color:#c4a7e7;
   font-weight:500;
 }
 
 th {
-  color:#444;
+  color:#c4a7e7;
 }
 
 img {
@@ -154,7 +154,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#eb6f92;
   font-weight:500;
 }
 
@@ -166,7 +166,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#eb6f92;
 }
 
 section {
@@ -181,7 +181,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#c4a7e7;
   height:1px;
   margin:0 0 20px;
 }
@@ -190,7 +190,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -212,7 +212,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #c4a7e7;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -265,9 +265,11 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#c4a7e7;
   }
 }
+
+/* Added by me */
 
 #HASH {
   display: flex;
